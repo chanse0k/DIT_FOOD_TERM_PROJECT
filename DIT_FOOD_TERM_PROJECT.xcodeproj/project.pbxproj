@@ -12,6 +12,7 @@
 		CD65AD7F20E5B79700EE1417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD65AD7D20E5B79700EE1417 /* Main.storyboard */; };
 		CD65AD8120E5B79700EE1417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD65AD8020E5B79700EE1417 /* Assets.xcassets */; };
 		CD65AD8420E5B79700EE1417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD65AD8220E5B79700EE1417 /* LaunchScreen.storyboard */; };
+		CD65AD8D20E5B7FA00EE1417 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD65AD8C20E5B7FA00EE1417 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CD65AD8020E5B79700EE1417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD65AD8320E5B79700EE1417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD65AD8520E5B79700EE1417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD65AD8C20E5B7FA00EE1417 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD65AD8D20E5B7FA00EE1417 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				CD65AD7820E5B79700EE1417 /* DIT_FOOD_TERM_PROJECT */,
 				CD65AD7720E5B79700EE1417 /* Products */,
+				CD65AD8B20E5B7FA00EE1417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				CD65AD8520E5B79700EE1417 /* Info.plist */,
 			);
 			path = DIT_FOOD_TERM_PROJECT;
+			sourceTree = "<group>";
+		};
+		CD65AD8B20E5B7FA00EE1417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD65AD8C20E5B7FA00EE1417 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
