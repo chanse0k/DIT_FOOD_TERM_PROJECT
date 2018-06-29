@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		CD65AD7A20E5B79700EE1417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65AD7920E5B79700EE1417 /* AppDelegate.swift */; };
-		CD65AD7C20E5B79700EE1417 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65AD7B20E5B79700EE1417 /* ViewController.swift */; };
 		CD65AD7F20E5B79700EE1417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD65AD7D20E5B79700EE1417 /* Main.storyboard */; };
 		CD65AD8120E5B79700EE1417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD65AD8020E5B79700EE1417 /* Assets.xcassets */; };
 		CD65AD8420E5B79700EE1417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD65AD8220E5B79700EE1417 /* LaunchScreen.storyboard */; };
 		CD65AD8D20E5B7FA00EE1417 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD65AD8C20E5B7FA00EE1417 /* MapKit.framework */; };
+		CD65AD8F20E5BC5400EE1417 /* DtailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65AD8E20E5BC5400EE1417 /* DtailViewController.swift */; };
+		CD65AD9120E5BC7C00EE1417 /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65AD9020E5BC7C00EE1417 /* TotalMapViewController.swift */; };
+		CD65AD9320E5BC9600EE1417 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65AD9220E5BC9600EE1417 /* MapViewController.swift */; };
+		CD65AD9920E5BD7700EE1417 /* TabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65AD9820E5BD7700EE1417 /* TabelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD65AD7620E5B79700EE1417 /* DIT_FOOD_TERM_PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIT_FOOD_TERM_PROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD65AD7920E5B79700EE1417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD65AD7B20E5B79700EE1417 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD65AD7E20E5B79700EE1417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD65AD8020E5B79700EE1417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD65AD8320E5B79700EE1417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD65AD8520E5B79700EE1417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD65AD8C20E5B7FA00EE1417 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CD65AD8E20E5BC5400EE1417 /* DtailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DtailViewController.swift; sourceTree = "<group>"; };
+		CD65AD9020E5BC7C00EE1417 /* TotalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
+		CD65AD9220E5BC9600EE1417 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CD65AD9820E5BD7700EE1417 /* TabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				CD65AD7920E5B79700EE1417 /* AppDelegate.swift */,
-				CD65AD7B20E5B79700EE1417 /* ViewController.swift */,
 				CD65AD7D20E5B79700EE1417 /* Main.storyboard */,
+				CD65AD9820E5BD7700EE1417 /* TabelViewController.swift */,
+				CD65AD9220E5BC9600EE1417 /* MapViewController.swift */,
+				CD65AD9020E5BC7C00EE1417 /* TotalMapViewController.swift */,
+				CD65AD8E20E5BC5400EE1417 /* DtailViewController.swift */,
 				CD65AD8020E5B79700EE1417 /* Assets.xcassets */,
 				CD65AD8220E5B79700EE1417 /* LaunchScreen.storyboard */,
 				CD65AD8520E5B79700EE1417 /* Info.plist */,
@@ -148,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD65AD7C20E5B79700EE1417 /* ViewController.swift in Sources */,
 				CD65AD7A20E5B79700EE1417 /* AppDelegate.swift in Sources */,
+				CD65AD8F20E5BC5400EE1417 /* DtailViewController.swift in Sources */,
+				CD65AD9120E5BC7C00EE1417 /* TotalMapViewController.swift in Sources */,
+				CD65AD9320E5BC9600EE1417 /* MapViewController.swift in Sources */,
+				CD65AD9920E5BD7700EE1417 /* TabelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

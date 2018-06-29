@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Table View Controller-->
         <scene sceneID="YQZ-gG-3Fb">
             <objects>
-                <tableViewController id="S2E-yr-7aM" sceneMemberID="viewController">
+                <tableViewController id="S2E-yr-7aM" customClass="TableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="JCL-fj-juS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,6 @@
                             <outlet property="delegate" destination="S2E-yr-7aM" id="gsF-nA-cp0"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="VKE-r2-Chq"/>
                     <navigationItem key="navigationItem" id="ohk-ia-xnX">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="qvJ-Zt-8XW">
                             <connections>
@@ -78,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="732" y="113.79310344827587"/>
         </scene>
-        <!--View Controller-->
+        <!--Dtail View Controller-->
         <scene sceneID="ixE-cP-yEm">
             <objects>
-                <viewController id="xge-7A-JWy" sceneMemberID="viewController">
+                <viewController id="xge-7A-JWy" userLabel="Dtail View Controller" customClass="DtailViewController" customModule="DIT_FOOD_TERM_PROJECT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rcW-gN-MUg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="1567" y="-107"/>
         </scene>
-        <!--View Controller-->
+        <!--Total MapView Controller-->
         <scene sceneID="b2R-o7-Y4d">
             <objects>
-                <viewController id="t8I-Ad-x9W" sceneMemberID="viewController">
+                <viewController id="t8I-Ad-x9W" userLabel="Total MapView Controller" customClass="TotalViewController" customModule="DIT_FOOD_TERM_PROJECT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="39z-BJ-YCa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -186,10 +185,10 @@
             </objects>
             <point key="canvasLocation" x="1565.5999999999999" y="557.27136431784118"/>
         </scene>
-        <!--View Controller-->
+        <!--MapView Controller-->
         <scene sceneID="suE-L1-rba">
             <objects>
-                <viewController id="PmA-bV-waJ" sceneMemberID="viewController">
+                <viewController id="PmA-bV-waJ" userLabel="MapView Controller" customClass="MapViewController" customModule="DIT_FOOD_TERM_PROJECT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rne-V7-wvx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
